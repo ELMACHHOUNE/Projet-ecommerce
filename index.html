@@ -24,20 +24,27 @@
 
 <section id="home">
     <!-- Home content -->
-    <h2>Welcome to Our E-commerce Website</h2>
-    <p>This is the home section of your website.</p>
+    <div class="home-container">
+        <h2>Discover the Latest in Technology</h2>
+        <p>Explore a world of cutting-edge electronics at unbeatable prices. From powerful laptops to sleek smartphones, we've got it all. Upgrade your tech game with us!</p>
+        <button onclick="scrollToCategories()">Explore Categories</button>
+    </div>
 </section>
 
 <section id="about">
     <!-- About content -->
-    <h2>About Us</h2>
-    <p>Learn more about our company and our mission.</p>
+    <div class="about-container">
+        <h2>About Us</h2>
+        <p>Welcome to our online store! We offer a wide range of electronic products, including laptops, phones, electronics, and TVs. Our mission is to provide high-quality products at affordable prices. Shop with us for the latest technology and unbeatable deals.</p>
+    </div>
 </section>
 
 <section id="cart">
     <!-- Cart content -->
     <h2>Your Shopping Cart</h2>
-    <!-- Display cart content here -->
+    <div id="cart-items"></div>
+    <p>Total Price: <span id="total-price">$0.00</span></p>
+    <button onclick="buyProducts()">Buy Now</button>
 </section>
 
 <section id="categories">
