@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your E-commerce Website</title>
+</head>
+<body>
+
+<header>
+    <h1>Your Logo</h1>
+</header>
+
+<nav>
+    <div class="navbar-container">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#cart">Cart</a>
+        <a href="#categories">Categories</a>
+        <img src="your_logo.png" alt="Logo">
+    </div>
+</nav>
+
+<section id="home">
+    <!-- Home content -->
+    <h2>Welcome to Our E-commerce Website</h2>
+    <p>This is the home section of your website.</p>
+</section>
+
+<section id="about">
+    <!-- About content -->
+    <h2>About Us</h2>
+    <p>Learn more about our company and our mission.</p>
+</section>
+
+<section id="cart">
+    <!-- Cart content -->
+    <h2>Your Shopping Cart</h2>
+    <!-- Display cart content here -->
+</section>
+
+<section id="categories">
+    <h2>Categories</h2>
+
+    <div class="category">
+        <h3>Laptops</h3>
+        <div class="product">
+            <h4>Laptop 1</h4>
+            <p>Price: $1000</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('Laptop 1', 1000)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h4>Laptop 2</h4>
+            <p>Price: $1200</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('Laptop 2', 1200)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h4>Laptop 3</h4>
+            <p>Price: $900</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('Laptop 3', 900)">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>Phones</h3>
+        <div class="product">
+            <h4>Phone 1</h4>
+            <p>Price: $500</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('Phone 1', 500)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h4>Phone 2</h4>
+            <p>Price: $700</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('Phone 2', 700)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h4>Phone 3</h4>
+            <p>Price: $600</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('Phone 3', 600)">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>Electronics</h3>
+        <div class="product">
+            <h4>Electronic 1</h4>
+            <p>Price: $300</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('Electronic 1', 300)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h4>Electronic 2</h4>
+            <p>Price: $400</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('Electronic 2', 400)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h4>Electronic 3</h4>
+            <p>Price: $350</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('Electronic 3', 350)">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>TVs</h3>
+        <div class="product">
+            <h4>TV 1</h4>
+            <p>Price: $800</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('TV 1', 800)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h4>TV 2</h4>
+            <p>Price: $1000</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('TV 2', 1000)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h4>TV 3</h4>
+            <p>Price: $900</p>
+            <p>Quantity: <input type="number" value="1"></p>
+            <button onclick="addToCart('TV 3', 900)">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Follow us on social media: <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a></p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
