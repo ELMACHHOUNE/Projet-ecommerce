@@ -45,8 +45,8 @@ function deleteProduct(product) {
 }
 
 function buyProducts() {
-    // Implement your buy logic here, for example, redirect to a checkout page.
-    alert('Redirecting to checkout...');
+    // Redirect to WhatsApp link for continuing the order.
+    window.open('https://wa.me/+212649455082', '_blank');
 }
 
 function scrollToCategories() {
